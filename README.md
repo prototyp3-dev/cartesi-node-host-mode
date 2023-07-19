@@ -16,7 +16,7 @@ Docker version `20.10.14` with [Docker Buildkit](https://github.com/moby/buildki
 To start the Cartesi node on host mode using a local chain run:
 
 ```shell
-curl https://github.com/prototyp3-dev/cartesi-node-host-mode/blob/main/docker-compose.yml -o docker-compose.yml
+curl https://raw.githubusercontent.com/prototyp3-dev/cartesi-node-host-mode/main/docker-compose.yml -O
 docker compose up -d
 ```
 
